@@ -3,22 +3,24 @@
 #include <stdio.h>
 
 /**
- *n greater than 0: is positive
- *n is 0: is zer
- *n is less than 0: is negative
+ * positive_or_negative - Determines if a number is positive, zero, or negative
+ *
+ * Description: Takes a random number and determines its sign.
+ *
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	int n;
+        int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	  printf("%d is positive\n", n);
-	else if (n == 0)
-	  printf("%d is zero\n", n);
-	else
-	  printf("%d is negative\n", n);
-	return (0);
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+        if (n > 0)
+          printf("  %d is positive\n", n);
+        else if (n == 0)
+          printf("  %d is zero\n", n);
+        else
+          printf("  %d is negative\n", n);
+
+        return (0);
 }
