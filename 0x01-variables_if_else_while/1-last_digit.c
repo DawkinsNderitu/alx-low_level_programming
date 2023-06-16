@@ -19,13 +19,13 @@ int main(void)
 
 	if (c > 5)
 	{
-		printf(" and is greater than 5\n");
+		printf(" and is greater than 5\n", n, c);
 	}
 	else if (c == 0)
 	{
-		printf(" and is O\n");
+		printf(" and is 0\n", n, c);
 	}
-	else
+	else if (c < 6 && v != 0)
 	{
 		printf(" and is  less than 6 and not 0\n");
 	}
