@@ -22,7 +22,7 @@ int main(void)
 	}
 	else if (last_d == 0)
 	{
-		printf("Last difit of %d is %d and is 0\n", n, last_d);
+		printf("Last digit of %d is %d and is 0\n", n, last_d);
 	}
 	else if (last_d < 6 && last_d != 0)
 	{
