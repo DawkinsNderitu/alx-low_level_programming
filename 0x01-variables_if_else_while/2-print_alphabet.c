@@ -7,17 +7,13 @@
  */
 
 int main(void)
+
 {
-	char lettr = 'a';
+	char d;
 
-	while (lettr <= 'z')
-	{
-		putchar(lettr);
-		lettr++;
-	}
-
+	for (d = 'a'; d <= 'z'; c++)
+	putchar(d);
 	putchar('\n');
-
-	return (o);
+	return (0);
 
 }
