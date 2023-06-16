@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - The entrypoint to the program
@@ -14,7 +16,7 @@ int main(void)
 
 	for (a = '0'; a <= 9; a++)
 	{
-		putchar(a);
+		putchar(ia);
 	}
 	putchar('\n');
 
