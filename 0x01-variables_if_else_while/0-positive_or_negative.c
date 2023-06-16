@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- *main: It prints is n s negative, positive or zero
+ *main - It prints is n s negative, positive or zero
+ *
  *Return: Always (Success)
  */
 
