@@ -3,32 +3,30 @@
 #include <stdio.h>
 
 /**
- * main - Entrypoint of the program
- * Return: Alyways success
+ * main- Entry point of the program
+ *
+ * Return: Always success
  */
+
 int main(void)
 {
-	int n;
-	int c;
+	int n, last_d;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	c = n % 10;
+	last_d = n % 10;
 
-	printf("Last digit of %d is %d and is", n, c);
-
-	if (c > 5)
+	if (last_d > 5)
 	{
-		printf(" and is greater than 5\n", n, c);
+		printf("Last digit of %d is %d and is greater than 5\n", n, last_d);
 	}
-	else if (c == 0)
+	else if (last_d == 0)
 	{
-		printf(" and is O\n", n, c);
+		printf("Last difit of %d is %d and is 0\n", n, last_d);
 	}
-	else
+	else if (last_d < 6 && last_d != 0)
 	{
-		printf(" and is  less than 6 and not 0\n", n, c);
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, last_d);
 	}
-
 	return (0);
 }
