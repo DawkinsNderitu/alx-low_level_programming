@@ -6,11 +6,12 @@
  * Return: Always success
  */
 
-int main()
+int main(void)
 {
 	char Program[] = "Programming is like building a multilingual puzzle";
-	puts (Program);
+
+	puts(Program);
 
 
-	return(0);
+	return (0);
 }
