@@ -9,7 +9,7 @@
 int main()
 {
 	char Program[] = "Programming is like building a multilingual puzzle";
-	put (Programming);
+	puts (Program);
 
 
 	return(0);
