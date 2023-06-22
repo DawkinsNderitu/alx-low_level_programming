@@ -1,10 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - The entry point
+ * main - Entry point of the program
  *
- * Return: Always o
+ * For multiples of 3, it prints "Fizz".
+ * For multiples of both 3 and 5, it prints "FizzBuzz".
+ * Each number or word is separated by a space.
+ *
+ * Return: Always 0 (indicating success)
  */
+
 
 int main(void)
 {
