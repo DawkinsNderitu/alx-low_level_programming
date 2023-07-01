@@ -7,16 +7,16 @@
  * Return: A pointer to the resulting string dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int x = 0, y = 0;
 
 	while (dest[x] != '\0')
 	x++;
 
-	while (src[y] != '\0' && y < n)
+	while (src[y] != '\0' && y <= n)
 	{
-	dest[x] != src[y];
+	dest[x] = src[y];
 	x++;
 	y++;
 	}
