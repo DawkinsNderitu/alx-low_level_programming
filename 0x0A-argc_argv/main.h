@@ -5,6 +5,7 @@
 
 /* Function prototypes */
 int _putchar(char c);
+int main(int argc, char *argv[]);
 void print_program_name(char *name);
 void print_argument_count(int count);
 void print_arguments(char **args);
