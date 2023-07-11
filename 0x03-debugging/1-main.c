@@ -10,9 +10,7 @@ int main(void)
 	int i;
 
 	printf("Infinite loop incoming :(\n");
-
 	i = 0;
-
 	/**
 	 *  Commenting out this part since it assign 0 to i
 	 *  while (i < 10)
@@ -20,8 +18,6 @@ int main(void)
 	 *  putchar(i);
 	 *  }
 	 */
-
 	printf("Infinite loop avoided! \\o/\n");
-
 	return (0);
 }
